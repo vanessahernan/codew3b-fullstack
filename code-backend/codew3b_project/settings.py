@@ -38,6 +38,18 @@ INSTALLED_APPS = [
     # --------------------------------------------------
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    # Reemplaza 'tusitio.netlify.app' con el nombre que te dio Netlify
+    "https://tusitio.netlify.app", 
+]
+
+# 2. Lista de HOSTS permitidos (Tu dominio de Render y Netlify)
+ALLOWED_HOSTS = [
+    # Permite todos los subdominios de Render
+    '.onrender.com', 
+    'tusitio.netlify.app', 
+]
+
 MIDDLEWARE = [
     # --- DEBE SER EL PRIMERO para manejar las peticiones de Vue ---
     'corsheaders.middleware.CorsMiddleware', 
