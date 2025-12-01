@@ -25,7 +25,7 @@ const submitForm = async () => {
 
     try {
         // *** PUNTO CRÍTICO: Petición POST al endpoint de Django ***
-        const response = await fetch('http://localhost:8000/api/contacto/', { 
+        const response = await fetch('https://codew3b-api.onrender.com/api/contacto/', { 
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(form.value) // Convierte los datos de Vue a JSON
