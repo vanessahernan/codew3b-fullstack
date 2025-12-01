@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     # Reemplaza 'tusitio.netlify.app' con el nombre que te dio Netlify
-    "https://tusitio.netlify.app", 
+   " https://codew3b-api.onrender.com"
 ]
 
 # 2. Lista de HOSTS permitidos (Tu dominio de Render y Netlify)
