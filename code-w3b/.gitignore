@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+db.sqlite3
+.vscode/
+
+.env 
+
+code-w3b/node_modules/
+code-w3b/dist/
+code-w3b/dist-ssr/
+code-w3b/*.log
+code-w3b/*.local
