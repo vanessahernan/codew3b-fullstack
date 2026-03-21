@@ -1,6 +1,5 @@
 [build]
-  base = "code-w3b"
-  command = "npm run build"
+  command = "npm install && npm run build"
   publish = "dist"
 
 [[redirects]]
