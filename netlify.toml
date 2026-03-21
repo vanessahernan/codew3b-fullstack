@@ -1,0 +1,4 @@
+<!-- filepath: c:\Users\Vanessa\Documents\PROJECT-IG\netlify.toml -->
+[build]
+  publish = "dist"
+  command = "npm run build"
